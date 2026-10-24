@@ -12,7 +12,7 @@ if not putty_path:
     print("Error: not found.")
     sys.exit(1)
 
-ip_address = input("192.168.1.1: ").strip()
+ip_address = input("192.168.1.1:").strip()
 
 if not ip_address:
     print("Error: do not empty.")
