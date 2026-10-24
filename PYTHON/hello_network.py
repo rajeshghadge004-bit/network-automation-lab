@@ -5,7 +5,7 @@ devices = [
  {"name":"Router","ip":"10.0.0.1"}
 ]
 
-print("Router Devices:")
+print("Firewall Devices:")
 
 for device in devices:
  if device["name"] == "Firewall":
