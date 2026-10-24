@@ -1,4 +1,3 @@
-```python
 # Enterprise Network Device Inventory
 
 devices = [
