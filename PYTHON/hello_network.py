@@ -1,9 +1,10 @@
-device_name = "Cisco-Router"
-device_ip = "192.168.1.1"
-device_type = "Router"
+devices = [
+ {"name":"Router","ip":"192.168.1.1"},
+ {"name":"Switch","ip":"192.168.1.2"},
+ {"name":"Firewall","ip":"192.168.1.3"},
+]
 
-print("Network Device Information")
-print("--------------------------")
-print("Device Name:",device_name)
-print("Device_IP:",device_ip)
-print("Device Type:",device_type)
+for device in devices:
+ print("Device Name:",device["name"])
+ print("Device IP:",device["ip"])
+ print("--------------------")
