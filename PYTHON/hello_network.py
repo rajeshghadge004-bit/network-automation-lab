@@ -8,5 +8,5 @@ devices = [
 print("Router Devices:")
 
 for device in devices:
- if device["name"] == "Router":
+ if device["name"] == "Firewall":
      print(device["name"],"-",device["ip"])
