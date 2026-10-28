@@ -1,0 +1,9 @@
+---
+- name: Collect basic device facts
+  hosts: all
+  gather_facts: true
+
+  tasks:
+    - name: Show gathered facts
+      ansible.builtin.debug:
+        var: ansible_facts
