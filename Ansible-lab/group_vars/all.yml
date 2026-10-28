@@ -1,0 +1,7 @@
+---
+ansible_user: admin
+ansible_password: admin
+ansible_connection: ssh
+ansible_become: true
+ansible_become_method: enable
+ansible_network_os: ios
