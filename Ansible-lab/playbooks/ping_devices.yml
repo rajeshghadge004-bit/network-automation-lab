@@ -1,8 +1,0 @@
----
-- name: Check network device reachability
-  hosts: all
-  gather_facts: false
-
-  tasks:
-    - name: Ping each device
-      ansible.builtin.ping:
